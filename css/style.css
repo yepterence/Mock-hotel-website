@@ -72,6 +72,10 @@ a {
   background: #333;
 }
 
+.filler {
+  clear: both;
+  
+}
 h1, h2, h3 {
 /* Spacing between headings and text will be defined here since reset will bring default padding of 0*/
   padding-bottom: 20px;
@@ -182,4 +186,18 @@ p {
   float: left; /* all boxes are now lined up horizontally */
   text-align: center;
   padding: 50px;
+}
+
+.box i {
+  margin-bottom: 10px;
+
+}
+
+/* Footer */
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
 }
