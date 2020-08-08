@@ -63,8 +63,13 @@ a {
 }
 
 .bg-light{
-  background: #f7c08a;
-  color: #fff;
+  background: #fff;
+  color: #333;
+}
+
+.bg-primary {
+  color: #f7c08a;
+  background: #333;
 }
 
 h1, h2, h3 {
@@ -168,4 +173,13 @@ p {
   text-align: center;
   padding: 50px 30px;
   overflow: hidden;
+}
+
+/* Features */
+
+.box {
+  width: 33.3%;
+  float: left; /* all boxes are now lined up horizontally */
+  text-align: center;
+  padding: 50px;
 }
