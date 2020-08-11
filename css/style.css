@@ -68,8 +68,8 @@ a {
 }
 
 .bg-primary {
-  color: #f7c08a;
-  background: #333;
+  color: #333;
+  background: #f7c08a;
 }
 
 .clr {
@@ -267,10 +267,17 @@ p {
   border: 1px #ddd solid; /* adds a slightly thicker border with pearlish white color to the box background */
 }
 
-#contact-form textarea {
-  height: 200px;
+#contact-form textarea { 
+  height: 200px; /* specifically increase message box length  */
 }
 
+
+#contact-form input:focus,
+#contact-form textarea:focus { 
+  /* Adds color to the outline of the message boxes */
+  outline: none;
+  border-color: #f7c08a;
+}
 /* Footer */
 
 #main-footer {
