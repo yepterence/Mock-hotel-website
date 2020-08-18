@@ -79,7 +79,10 @@ a {
 
 .l-heading {
   font-size: 40px;
+  line-height: 1.2;
 }
+
+
 h1, h2, h3 {
 /* Spacing between headings and text will be defined here since reset will bring default padding of 0*/
   padding-bottom: 20px;
@@ -108,7 +111,7 @@ p {
   color: #fff;
 }
 
-#navbar h1 {
+#navbar .logo {
   /* Align logo to left */
   float: left;
   /* push logo down by 20px */
@@ -225,7 +228,7 @@ p {
 /* Testimonials  */
 
 #testimonials {
-  height: 600px;
+  height: 100%;
   background: url('../img/aerial-photography-of-city-buildings-1334605.jpg') no-repeat center center/cover;
   padding-top: 100px;
 }

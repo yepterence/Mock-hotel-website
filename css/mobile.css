@@ -1,0 +1,79 @@
+#navbar .logo {
+  /* Align logo to left */
+  float: none;
+  text-align: center;
+  /* push logo down by 20px */
+  padding-top: 20px;
+}
+
+#navbar ul, #navbar ul li {
+
+  list-style: none;
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+}
+
+
+#home-info {
+  height: 550px;
+}
+
+#home-info .info-img {
+  display: none;
+}
+
+#home-info .info-content {
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+
+/* Boxes */
+.box {
+  width: 100%;
+  float: none; /* all boxes are now lined up horizontally */
+  text-align: center;
+  padding: 50px;
+}
+
+/* About page */
+
+#about-info .info-right,
+#about-info .info-left {
+  float: none;
+  width: 100%;
+  min-height: 100%;
+
+}
+
+
+.l-heading {
+  text-align: center;
+  font-size: 1.55rem;
+}
+
+#about-info .info-right {
+  margin-top: 20px;
+}
+
+/* Testimonials */
+
+#testimonials {
+  height: 100%;
+  background: url('../img/aerial-photography-of-city-buildings-1334605.jpg') no-repeat center center/cover;
+  padding-top: 100px;
+
+}
+
+/* Contact boxes */
+
+#contact-info .box {
+  border-bottom: rgb(95, 95, 95) dotted 1px;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
