@@ -70,8 +70,14 @@ a {
 .bg-primary {
   color: #333;
   background: #f7c08a;
+  height: 100%;
 }
 
+#box .bg-primary {
+  color: #333;
+  background: #f7c08a;
+  height: 100%;
+}
 .clr {
   clear: both;
 
@@ -196,7 +202,9 @@ p {
   width: 33.3%;
   float: left; /* all boxes are now lined up horizontally */
   text-align: center;
+  height: 100%;
   padding: 50px;
+  padding-bottom: 1.2rem;
 }
 
 .box i {
